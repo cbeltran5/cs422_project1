@@ -7,11 +7,11 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.min.js" ></script>
  
 <body>
-  <a href="./source_code.html">Source Code</a>
+  <a href="https://github.com/cbeltran5/cs422_project1">Source Code</a>
   <a href= "./sketches.html">Sketches</a>
   <a href="./usage.html">Usage</a>
   <a href="./interface_explanation.html">Interface Explanation</a>
-  <a href="">Video demonstration</a>
+  <a href="https://www.youtube.com/watch?v=pc1bHOkLV30&feature=youtu.be">Video demonstration</a>
   <br><br>
 	<!-- canvas tag for Fabric.js to draw into -->
 	<canvas id="c" width="4140" height="2200" style="border:2px solid black;" ></canvas>
@@ -80,7 +80,7 @@
   /* Init */
   var canvas = this.__canvas = new fabric.Canvas('c');
   canvas.backgroundColor = "#5555F5"; 
-  scale_factor = canvas.height / localHeight;
+  scale_factor = 1;
 
   var backWall = new fabric.Rect({
     left: 0,
